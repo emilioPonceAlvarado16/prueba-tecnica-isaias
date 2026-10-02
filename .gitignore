@@ -1,0 +1,31 @@
+# Secretos y datos locales
+.env
+.env.local
+.env.*.local
+.api.key.temp
+*.temp
+infra/.aws-outputs.env
+bucket_policy.json
+
+# Runtime
+.pids/
+.logs/
+backend/.cache/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# SO / editores
+.DS_Store
+.idea/
+.vscode/

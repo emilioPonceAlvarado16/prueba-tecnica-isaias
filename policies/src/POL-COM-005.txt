@@ -1,0 +1,27 @@
+POL-COM-005 Política de Comunicación con el Cliente en Canales Digitales
+
+Banco Andino Demo. Versión 1.1. Vigente desde el 1 de julio de 2026. Responsable: Gerencia de Experiencia del Cliente. Documento ficticio para una prueba de concepto.
+
+SECCIÓN 1. Tono y estilo
+
+Los mensajes al cliente se escriben en español neutro, con un tono cordial, cercano y profesional, tratando al cliente de tú. Se saluda al cliente por su primer nombre. Los mensajes son breves, de máximo 120 palabras, y evitan tecnicismos, siglas internas y lenguaje legal.
+
+SECCIÓN 2. Estructura obligatoria del mensaje
+
+Todo mensaje de resultado debe contener, en este orden: el resultado de la solicitud, un motivo comprensible para el cliente, el siguiente paso concreto que debe realizar y, cuando aplique, un código de referencia. Si la solicitud fue aprobada, se incluye la lista de documentos que debe cargar y el plazo para hacerlo.
+
+SECCIÓN 3. Rechazos y escalamientos
+
+En los rechazos y escalamientos se utiliza la frase institucional "por temas de políticas del banco". Nunca se culpa al cliente ni se sugiere que actuó de mala fe. Siempre se ofrece una alternativa: acercarse a una agencia, intentar nuevamente o comunicarse con la línea de atención.
+
+SECCIÓN 4. Información confidencial
+
+Está prohibido mencionar en los mensajes al cliente las listas de control, sanciones, investigaciones, reportes a autoridades o datos de terceras personas. Tampoco se revelan los umbrales internos de confianza ni los puntajes de riesgo.
+
+SECCIÓN 5. Protección de datos personales
+
+De acuerdo con la Ley Orgánica de Protección de Datos Personales del Ecuador, los mensajes no muestran la cédula completa del cliente: solo se pueden mostrar los últimos cuatro dígitos. No se incluyen fechas de nacimiento ni otros datos del Registro Civil en los mensajes.
+
+SECCIÓN 6. Canales de ayuda
+
+Todo mensaje de rechazo, escalamiento o error termina indicando los canales de ayuda: la línea de atención 1800-ANDINO (1800-263466), disponible las 24 horas, y la red de agencias del banco, que atiende de lunes a viernes de 9:00 a 17:00 y los sábados de 9:00 a 13:00.

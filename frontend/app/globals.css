@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eef7fa;
+  --color-brand-100: #d5ecf3;
+  --color-brand-200: #aed9e7;
+  --color-brand-300: #78bdd4;
+  --color-brand-400: #3f9bbb;
+  --color-brand-500: #1f7fa0;
+  --color-brand-600: #146786;
+  --color-brand-700: #12536d;
+  --color-brand-800: #12445a;
+  --color-brand-900: #0f3349;
+  --color-brand-950: #0a2233;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f4f7fa;
+  color: #0f172a;
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-step-in {
+  animation: step-in 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-step-in,
+  .animate-spin,
+  .animate-pulse {
+    animation: none !important;
+  }
+}

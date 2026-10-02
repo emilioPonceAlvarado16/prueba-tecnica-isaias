@@ -1,0 +1,12 @@
+# Imagen de la Lambda 'onboarding-api' (Flask + LangGraph) - arm64 / Graviton
+FROM public.ecr.aws/lambda/python:3.12-arm64
+
+COPY --from=ghcr.io/astral-sh/uv:0.8 /uv /bin/uv
+COPY pyproject.toml uv.lock ./
+RUN uv export --frozen --no-dev --no-hashes --no-emit-project -o /tmp/requirements.txt \
+ && pip install --no-cache-dir -r /tmp/requirements.txt --target "${LAMBDA_TASK_ROOT}"
+
+COPY app "${LAMBDA_TASK_ROOT}/app"
+COPY lambda_handler.py "${LAMBDA_TASK_ROOT}/"
+
+CMD ["lambda_handler.handler"]
